@@ -74,7 +74,7 @@ class Value:
     def __sub__(self, other): # self - other
         return self + (-other)
 
-    def __rsub__(self, other): # other - self
+    def __rsub__(self, other): 
         return other + (-self)
 
     def __rmul__(self, other): 
